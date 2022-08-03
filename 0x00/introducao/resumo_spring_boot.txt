@@ -35,7 +35,7 @@ Ele favorece a convenção sobre a configuração: ele configura nosso projeto a
 
 Na sua opinião, qual é a melhor IDE para trabalhar com o Spring Boot: Spring Tools Suites, IntelliJ IDEA, Eclipse ou NetBeans ?
 
-O Spring Tools Suites, pela facilidade de criação de projeto Spring diretamente da IDE, sem necessidade de criar start.spring.io
+O Spring Tools Suites, pela facilidade de criação de projeto Spring diretamente da IDE, sem necessidade de criar start.spring.io, além de ser a IDE oficial do Spring.
 
 
 O que é Spring Initializr?
