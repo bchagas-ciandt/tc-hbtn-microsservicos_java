@@ -1,0 +1,43 @@
+O que é Spring Boot Framework?
+
+- De acordo com a documentação oficial, Spring Boot é um framework que facilita a criação de aplicativos independentes. baseados no ecossistema Spring, seus principais objetivos são gerenciar dependências de maneira opinativa e automática, e simplificar a execução em tempo de desenvolvimento e depuração. ele usa o conceito de Convention Over Configuration(Convenção sobre a configuração), ele configura a nosso projeto a partir de convenções que ele adota.
+
+
+Quais são os benefícios e recursos que Spring Boot fornece?
+
+- Gerenciamento de dados: o Spring possui vários módulos para integrar facilmente com banco de dados populares.
+
+- Servidor embarcado: ApacheTomcaT
+
+- Criação de aplicações independentes
+
+- Estratégias para lidar com falhas: O Spring boot tem uma fácil integração com o Resilicience4J. ele fornece várias funcionalidades para lidar com falhas no sistema distribuído. Circuit Breakers, Retry, Timeout, Rate Limiters, Fallback handler, Bulkheads etc
+
+- Observabilidade - o Spring Boot Actuator é poderoso, fornece verificação de integridade, visualiza logs, Métricas.
+
+- Estilo de comunicação: o Spring possui recursos para criar aplicativos reativos. é super fácil criar api de descanso com a ajuda do Spring MVC. é fácil integrar o Spring ao MQ para criar serviços de estilo assíncrono. O Spring também possui um módulo para criar aplicativos em SOAP.
+
+- Intengração de camada intermediária: Com a ajuda de vários módulos, o Spring fornece abstração para integração com o Apache Kafka, qualquer AMQP, RabbitMQ, ActiveMQ.
+
+- Integração com ferramentas: Consul, Prometheus, Jaeger, Grafana.
+
+- Cloud Native: Docker, Kubernetes, OpenTracing, Etc.
+
+- Segurança: Spring Security, bom suporte para OAuth2, gerenciamento de sessões possível criar serviços com e sem estado. Key Vault, padrões de gateway
+
+
+
+Como é feita a adição de novas dependências (JPA, Hibernate, etc...)?
+
+As dependências, assim como no maven, são adicionadas pelo arquivo POM.xml
+Ele favorece a convenção sobre a configuração: ele configura nosso projeto a partir de convenções que ele adota.
+
+
+Na sua opinião, qual é a melhor IDE para trabalhar com o Spring Boot: Spring Tools Suites, IntelliJ IDEA, Eclipse ou NetBeans ?
+
+O Spring Tools Suites, pela facilidade de criação de projeto Spring diretamente da IDE, sem necessidade de criar start.spring.io
+
+
+O que é Spring Initializr?
+
+é a parte de criação de projetos Spring, que pode ser imbutida na IDE ou pelo site oficial do Spring "https://start.spring.io/". lá é possível criar o projeto escolhendo a linguagem (Java, Kotlin ou Groovy), o Gerenciadorde dependências (Maven ou Gradle), a versão do Spring boot, as informações do projeto como Descrição, etc. além da versão do java.
